@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+  padding: 65px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 300px;
+}
+h1{
+  color: rgb(104, 243, 53);
+}
+.title{
+  display: flex;
+  justify-content: center;
+}
+.button{
+display: flex;
+justify-content: center;
+background-color: rgb(104, 243, 53);
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.gino22, .mike24, .fede154{
+  margin-top: 20px;
+  color: white;
+}
+.carica-gino{
+  background-color: orange;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+.carica-mike{
+  background-color: rgb(54, 198, 54);
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+.carica-fede{
+  background-color: rgb(185, 15, 15);
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
